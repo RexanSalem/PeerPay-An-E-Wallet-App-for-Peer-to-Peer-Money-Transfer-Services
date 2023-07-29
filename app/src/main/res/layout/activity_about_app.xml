@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#b8e2f2"
+    tools:context=".AboutApp">
+
+    <ImageView
+        android:id="@+id/back_tomain"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="160dp"
+        android:src="@drawable/back_arrow2"
+        android:alpha="0.4"
+        android:contentDescription="Back Button" />
+
+    <TextView
+        android:id="@+id/send_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="About us"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#EAE0E0"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/editext_about"
+            android:backgroundTint="#b8e2f2"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Welcome to Peer Pay, the ultimate E-Wallet app designed for seamless and secure peer-to-peer money transfers. Our innovative platform empowers individuals to send and receive money effortlessly, revolutionizing the way you handle financial transactions with friends, family, and anyone within your network."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="174dp"
+                android:layout_marginTop="20dp"
+                android:text="With Peer Pay, convenience is at your fingertips. Say goodbye to the hassle of cash transactions and the complexities of bank transfers. Experience the future of peer-to-peer money transfers with Peer Pay."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

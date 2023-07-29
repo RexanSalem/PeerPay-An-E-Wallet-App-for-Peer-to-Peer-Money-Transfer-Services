@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8e2f2"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/signup_logo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/finallogo_splashscreen"/>
+
+        <TextView
+            android:id="@+id/login_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="WELCOME TO PEERPAY"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/signup_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:background="@drawable/edittext_round"
+            android:drawablePadding="5dp"
+            android:hint="FULLNAME"
+            android:padding="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"/>
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:background="@drawable/edittext_round"
+            android:drawablePadding="5dp"
+            android:hint="EMAIL"
+            android:padding="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"/>
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:background="@drawable/edittext_round"
+            android:drawablePadding="5dp"
+            android:hint="CREATE PASSWORD"
+            android:padding="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"/>
+
+        <EditText
+            android:id="@+id/signup_number"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/baseline_local_phone_24"
+            android:background="@drawable/edittext_round"
+            android:drawablePadding="5dp"
+            android:hint="MOBILE NUMBER"
+            android:padding="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/textView_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="By continuing, you confirm that you are authorized to use this email and phone number above." />
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#77c3ec"
+            android:text="SIGN UP"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Already a User? Log In"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</RelativeLayout>

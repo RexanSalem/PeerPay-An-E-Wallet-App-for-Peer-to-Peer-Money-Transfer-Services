@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Peerpay_moneytransferapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".CashInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectTransactions"
+            android:exported="false" />
+        <activity
+            android:name=".RequestTransactions"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayImage"
+            android:exported="false" />
+        <activity
+            android:name=".Transactions"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="true" />
+        <activity
+            android:name=".RequestMoneyNow"
+            android:exported="true" />
+        <activity
+            android:name=".SendMoneyNow"
+            android:exported="true" />
+        <activity
+            android:name=".AboutApp"
+            android:exported="true" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="true" />
+        <activity
+            android:name=".Wallet"
+            android:exported="true" />
+        <activity
+            android:name=".RequestPayments"
+            android:exported="true" />
+        <activity
+            android:name=".SendPayments"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".LogIn"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.paypal\.checkout.Server"
+            android:value="sandbox" /> <!-- Use "production" for live environment -->
+        <meta-data
+            android:name="com.paypal.checkout.ClientId"
+            android:value="AT0Yl1a966C94zsEMN0mhLfJxm6Eea_TMixawjFpOW_drRfQmygrZukJxd0BtguBRtZkrO3Ocx67KZaB" />
+    </application>
+
+</manifest>

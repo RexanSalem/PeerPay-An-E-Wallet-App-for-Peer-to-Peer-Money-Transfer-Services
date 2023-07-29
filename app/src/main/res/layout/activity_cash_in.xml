@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#b8e2f2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="PeerPay Cash In"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/cashInAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext_round"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Proceed"
+        android:backgroundTint="#77c3ec"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+</LinearLayout>

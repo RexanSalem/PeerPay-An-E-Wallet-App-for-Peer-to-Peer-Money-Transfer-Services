@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862145556843",
+    "project_id": "peerpay-moneytransferapp-d4dee",
+    "storage_bucket": "peerpay-moneytransferapp-d4dee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862145556843:android:3906b1df0e8976ff945c2e",
+        "android_client_info": {
+          "package_name": "com.example.peerpay_moneytransferapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862145556843-j0eh970ujj3p70ns925o97a2ch9f4fou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm_y6G68HhJIsytsLqCyDY4JPaUEXbfNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862145556843-j0eh970ujj3p70ns925o97a2ch9f4fou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

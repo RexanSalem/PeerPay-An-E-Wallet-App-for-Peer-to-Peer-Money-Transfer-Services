@@ -1,11 +1,12 @@
 # PeerPay-An-E-Wallet-App-for-Peer-to-Peer-Money-Transfer-Services
-![2023-07-26 19-44-04 High Res Screenshot](https://github.com/RexanSalem/PeerPay-An-E-Wallet-App-for-Peer-to-Peer-Money-Transfer-Services/assets/140866692/81ad8864-aefd-48b3-a446-179bb0e1d617)
+![2023-07-26 19-44-04 High Res Screenshot](https://github.com/RexanSalem/PeerPay-An-E-Wallet-App-for-Peer-to-Peer-Money-Transfer-Services/assets/140866692/53027852-c448-45a8-8bb9-ee36a3faf8f7)
 Welcome to Peer Pay, the ultimate E-Wallet app designed for seamless and secure peer-to-peer money transfers. Our innovative platform empowers individuals to send and receive money effortlessly, revolutionizing the way you handle financial transactions with friends, family, and anyone within your network. 
 With Peer Pay, convenience is at your fingertips. Say goodbye to the hassle of cash transactions and the complexities of bank transfers. Experience the future of peer-to-peer money transfers with Peer Pay.
 
 # Overview
 PeerPay is a cutting-edge e-wallet app designed to revolutionize the way you conduct peer-to-peer transactions. With PeerPay, you can securely and effortlessly transfer funds directly to friends, family, or anyone in your network. Say goodbye to the inconvenience of traditional payment methods and embrace the ease of PeerPay's seamless digital wallet experience.
-![2023-07-29 08-36-46 High Res Screenshot](https://github.com/RexanSalem/PeerPay-An-E-Wallet-App-for-Peer-to-Peer-Money-Transfer-Services/assets/140866692/78ad68a6-57dc-4d15-8240-0a91d42d0cf2)
+![2023-07-26 19-44-35 High Res Screenshot](https://github.com/RexanSalem/PeerPay-An-E-Wallet-App-for-Peer-to-Peer-Money-Transfer-Services/assets/140866692/9c7cea26-6b24-4ad4-b549-24f0674897e5)
+
 
 # Features
 # 1. LogIn and Sign Up
